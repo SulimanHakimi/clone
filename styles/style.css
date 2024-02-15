@@ -558,11 +558,12 @@ footer {
 .company-page-1-content {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 42%;
   gap: 20px;
 }
 .company-page-1-title {
   font-weight: 500;
+  line-height: 50px;
 }
 .company-page-1-bottom-div {
   display: flex;
@@ -695,4 +696,26 @@ footer {
 .company-page-5-leadership-card-icons i {
   color: #ec7a49;
   cursor: pointer;
+}
+/* company end */
+.servic-page-1-p {
+  line-height: 24px;
+}
+.service-page-1 {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* sec 2 */
+.servic-page-2-sec {
+  background-color: #ffffff;
+}
+.servic-page-2 {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
