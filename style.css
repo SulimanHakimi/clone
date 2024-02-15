@@ -13,6 +13,19 @@ a {
   text-decoration: none;
   color: black;
 }
+.live-chat {
+  position: fixed;
+  height: 70px;
+  width: 70px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ec7a49;
+  border: none;
+  right: 10px;
+  bottom: 10px;
+}
 .continair {
   width: 100%;
   background: #fffbf8;
@@ -390,6 +403,24 @@ nav ul li {
   margin: 0px;
 }
 /* sec 7 end */
+/* conatct-footer */
+.conatct-footer-sec {
+  background-color: rgb(243 244 246);
+}
+.conatct-footer h1 {
+  margin: 0%;
+}
+.conatct-footer {
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* conatct-footer end */
 /* footer */
 
 .privacy {
