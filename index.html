@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -405,13 +405,16 @@
               Have a brilliant idea for a product? You are in the right place.
             </p>
             <div>
-              <div>
-                <input type="text" name="" id="" /><button class="btn-primary">
-                  Subscribe
-                </button>
+              <div class="footer-contact-subscrie-inp">
+                <input
+                  type="text"
+                  placeholder="Your Email Address"
+                  name=""
+                  id=""
+                /><button class="btn-primary">Subscribe</button>
               </div>
-              <div>
-                <input type="checkbox" id="checkbox" /><label
+              <div class="footer-contact-privacy">
+                <input type="checkbox" id="checkbox" checked /><label
                   for="checkbox"
                   class="fopter-check-label"
                   >Are you agree with
@@ -423,10 +426,10 @@
         </section>
       </main>
       <footer>
-        <div class="padding">
-          <div class="hr-footer">
+        <div class="padding footer-div">
+          <div class="footer-list-top">
             <div class="column-footer-content">
-              <h5>COMPANY</h5>
+              <h5 class="title">COMPANY</h5>
               <ul>
                 <li>About</li>
                 <li>Blog</li>
@@ -434,7 +437,7 @@
               </ul>
             </div>
             <div class="column-footer-content">
-              <h5>SERVICES</h5>
+              <h5 class="title">SERVICES</h5>
               <ul>
                 <li>Software Development</li>
                 <li>ICT Training</li>
@@ -442,7 +445,7 @@
               </ul>
             </div>
             <div class="column-footer-content">
-              <h5>ON SOCIAL</h5>
+              <h5 class="title">ON SOCIAL</h5>
               <ul>
                 <li>Twitter</li>
                 <li>Facebook</li>
@@ -450,7 +453,7 @@
               </ul>
             </div>
             <div class="column-footer-content">
-              <h5>ADDRESS</h5>
+              <h5 class="title">ADDRESS</h5>
               <ul>
                 <li>hello@rapiditeration.com</li>
                 <li>Vancouver, BC</li>
@@ -459,7 +462,9 @@
             </div>
           </div>
           <div class="bottom-footer">
-            <p>Made With Love By Suliman Hakimi All Right Reserved</p>
+            <p class="footer-bottom-p">
+              Made With Love By Suliman Hakimi All Right Reserved
+            </p>
             <a>PRIVACY POLICY </a>
           </div>
         </div>

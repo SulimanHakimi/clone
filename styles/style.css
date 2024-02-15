@@ -15,17 +15,18 @@ a {
 }
 .live-chat {
   position: fixed;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   color: white;
   font-size: 30px;
   cursor: pointer;
   border-radius: 50%;
   background-color: #ec7a49;
   border: none;
-  right: 10px;
-  bottom: 10px;
+  right: 20px;
+  bottom: 20px;
 }
+
 .continair {
   width: 100%;
   background: #fffbf8;
@@ -70,6 +71,12 @@ nav ul {
   align-items: center;
   justify-content: center;
   gap: 35px;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: #ec7a49;
 }
 nav ul li {
   color: #69758f;
@@ -117,7 +124,7 @@ nav ul li {
 .p {
   font-size: 20px;
   color: #69758f;
-  line-height: 30px;
+  line-height: 32px;
 }
 .page-1-title-underlined {
   position: relative;
@@ -415,9 +422,50 @@ nav ul li {
   width: 40%;
   display: flex;
   text-align: center;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.footer-contact-subscrie-inp {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 544px;
+  height: 57px;
+}
+.footer-contact-subscrie-inp input:hover {
+  border: 1px solid #ec7a49;
+}
+.footer-contact-subscrie-inp input {
+  padding: 15px 25px;
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  text-align: left;
+  color: #000000;
+  border: none;
+  font-size: 16px;
+  display: flex;
+}
+.footer-contact-subscrie-inp button {
+  padding: 13px 20px;
+  position: absolute;
+  right: 5px;
+}
+.footer-contact-privacy {
+  text-align: left;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-contact-privacy label {
+  font-size: 16px;
+  color: rgb(82 95 127);
+}
+.footer-contact-privacy label a {
+  text-decoration: underline;
 }
 
 /* conatct-footer end */
@@ -426,4 +474,225 @@ nav ul li {
 .privacy {
   color: #ec7a49;
 }
+footer {
+  background-color: #ffffff;
+}
+.footer-div {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.footer-list-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.column-footer-content {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  gap: 20px;
+}
+.column-footer-content h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  font-family: "Suez One", serif;
+}
+.column-footer-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.column-footer-content ul li {
+  color: rgb(142 154 175);
+  font-size: 16px;
+}
+.column-footer-content ul li:hover {
+  color: #1a2026;
+  cursor: pointer;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+}
+.footer-bottom-p,
+.bottom-footer a {
+  font-size: 14px;
+  color: rgb(142 154 175);
+}
+.bottom-footer a {
+  text-transform: capitalize;
+  cursor: pointer;
+}
 /* footer end */
+/* ///////////////////////////////////////compay page */
+.onThisPage {
+  color: #ec7a49;
+}
+.company-page-1 {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.company-page-1-cc-card {
+  display: flex;
+  justify-content: space-between;
+}
+.company-page-1-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-page-1-content {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 20px;
+}
+.company-page-1-title {
+  font-weight: 500;
+}
+.company-page-1-bottom-div {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.company-page-1-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.company-page-1-bottom h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #1a2026;
+  padding: 6px;
+}
+
+.company-page-1-bottom span {
+  color: #69758f;
+  padding: 6px;
+}
+
+/* sec 2 compant */
+.company-page-2-sec {
+  background: #ffffff;
+}
+.company-page-2 {
+  display: flex;
+  height: 600vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.company-page-2-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+.company-page-1-card-bg {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+.company-page-1-card-left {
+  width: 40%;
+}
+.company-page-1-card-right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.company-page-1-card-right h1 {
+  margin: 0px;
+}
+.company-page-1-card-bg:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* sec 3 */
+.company-page-3 {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-3-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 40%;
+  align-items: start;
+}
+.page1-img-div {
+  width: 40%;
+}
+.title-page-3 {
+  font-weight: 500;
+  line-height: 48px;
+}
+/* sec 4 */
+.company-page-5-sec {
+  background-color: #ffffff;
+}
+.company-page-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250vh;
+}
+.company-page-5-top {
+  margin: 0px auto;
+}
+.company-page-5-leadership-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  gap: 14px;
+}
+.company-page-5-leadership-card-img {
+  width: 176px;
+  height: 176px;
+  filter: grayscale(100%);
+  border-radius: 50%;
+}
+.company-page-5-leadership-card-img:hover {
+  filter: grayscale(0%);
+}
+.company-page-5-leadership-card p {
+  font-size: 16px;
+}
+.company-page-5-leadership-card-lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.title-card-page-5 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.company-page-5-leadership-card-icons {
+  display: flex;
+  gap: 10px;
+}
+.company-page-5-leadership-card-icons i {
+  color: #ec7a49;
+  cursor: pointer;
+}
