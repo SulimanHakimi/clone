@@ -78,7 +78,7 @@ nav ul li {
 nav ul li:hover {
   color: #ec7a49;
 }
-nav ul li {
+nav ul li a{
   color: #69758f;
 }
 .nav-img {
