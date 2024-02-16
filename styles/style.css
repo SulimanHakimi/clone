@@ -981,3 +981,70 @@ input::-webkit-inner-spin-button {
   height: 170vh;
 }
 /*  */
+.services-3-setopm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+/*  */
+.sec-4-ser {
+  height: 200vh;
+  background-color: #ffffff;
+}
+.secfft {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.tilte-123 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-123 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 10px 50px;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+  height: 300px;
+  gap: 10px;
+}
+.card-123 div {
+  width: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 50%;
+}
+.page-ser-123-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 180vh;
+  position: relative;
+}
+.line {
+  position: absolute;
+  right: 33%;
+  bottom: 55%;
+}
+.line1 {
+  position: absolute;
+  right: 33%;
+  bottom: 20%;
+}
+.line-11 {
+  position: absolute;
+  left: 23%;
+  bottom: 25%;
+}
+.line-12 {
+  position: absolute;
+  left: 23%;
+  bottom: 55%;
+}
