@@ -5,6 +5,7 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
+  scroll-margin-top: 100px;
 }
 ul {
   list-style: none;
@@ -1051,3 +1052,4 @@ input::-webkit-inner-spin-button {
   left: 23%;
   bottom: 55%;
 }
+
