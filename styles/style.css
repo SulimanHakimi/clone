@@ -816,7 +816,8 @@ input::-webkit-inner-spin-button {
 .right-contact textarea {
   padding: 10px;
   background: #fffbf8;
-
+  width: 95%;
+  height: 200px;
   border-radius: 10px;
   border: none;
   resize: none;
@@ -871,13 +872,13 @@ input::-webkit-inner-spin-button {
   align-items: start;
   gap: 10px;
 }
-.socils i,
 .socils label {
   color: rgb(142 154 175);
   font-size: 16px;
   font-weight: 500;
 }
 .socils i {
+  color: rgb(142 154 175);
   font-size: 20px;
 }
 .socils div {
