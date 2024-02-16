@@ -978,5 +978,6 @@ input::-webkit-inner-spin-button {
   flex-direction: column !important;
   align-items: center;
   justify-content: center;
-  height: 150vh;
+  height: 170vh;
 }
+/*  */
