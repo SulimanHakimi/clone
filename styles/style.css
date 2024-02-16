@@ -597,7 +597,7 @@ footer {
 }
 .company-page-2 {
   display: flex;
-  height: 600vh;
+  height: 500vh;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
@@ -609,7 +609,7 @@ footer {
   width: 50%;
 }
 .company-page-1-card-bg {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
 }
@@ -818,6 +818,7 @@ input::-webkit-inner-spin-button {
   background: #fffbf8;
   width: 95%;
   height: 200px;
+  font-size: 18px;
   border-radius: 10px;
   border: none;
   resize: none;
@@ -960,7 +961,7 @@ input::-webkit-inner-spin-button {
   width: 320px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .blog-card h3 {
   font-size: 18px;
