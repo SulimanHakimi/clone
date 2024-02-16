@@ -44,6 +44,7 @@ header {
   width: 100%;
   background-color: #fffbf8;
   z-index: 20;
+  box-shadow: 0px 0px 2px gray;
 }
 nav {
   position: relative;
@@ -75,10 +76,10 @@ nav ul {
 nav ul li {
   cursor: pointer;
 }
-nav ul li:hover {
+nav ul li a:hover {
   color: #ec7a49;
 }
-nav ul li a{
+nav ul li a {
   color: #69758f;
 }
 .nav-img {
@@ -440,6 +441,8 @@ nav ul li a{
 .footer-contact-subscrie-inp input {
   padding: 15px 25px;
   width: 100%;
+  outline: none;
+
   border-radius: 8px;
   height: 100%;
   text-align: left;
@@ -718,4 +721,186 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* mm */
+.card-bpn {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.card-bpn img {
+  width: 60px;
+  height: 80px;
+}
+.card-mvp-development-process {
+  height: 60vh;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+.card-mvp-development-process-content {
+  display: flex;
+  align-self: flex-end;
+  gap: 20px;
+  flex-direction: column;
+}
+.card-mvp-development-process-content p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-mvp-development-process-content img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-mvp-development-process-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.card-mvp-development-process-content ul li {
+  color: #69758f;
+  font-size: 16px;
+}
+.w-div button a {
+  color: #ffffff;
+}
+
+.card-mvp-development-process-content ul li:hover {
+  color: #ec7a49;
+  cursor: pointer;
+}
+.left-contact {
+  width: 40%;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #2f3640;
+  color: #ffffff;
+}
+.right-contact {
+  width: 50%;
+  border-radius: 10px;
+  height: 100vh;
+  gap: 40px;
+  display: flex;
+  padding: 40px 50px;
+  flex-direction: column;
+  align-items: center;
+  background: #c7ccd440;
+}
+.right-contact input {
+  width: 95%;
+  outline: none;
+  background: #fffbf8;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.right-contact textarea {
+  padding: 10px;
+  background: #fffbf8;
+
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+.right-contact button {
+  display: flex;
+  align-self: flex-end;
+}
+.right-contact input:hover,
+.right-contact input:focus,
+.right-contact textarea:hover,
+.right-contact textarea:active {
+  border: 1px solid #ec7a49;
+}
+
+.contact {
+  display: flex;
+}
+.card-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+}
+.page-2-contact {
+  text-align: center;
+  margin-top: 200px;
+  text-align: center;
+  width: 40%;
+  height: 50vh;
+}
+.page-2-contact h1 {
+  font-size: 60px;
+}
+.cards {
+  height: 130vh;
+}
+.top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-top-left {
+  font-size: 20px;
+}
+
+.socils {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.socils i,
+.socils label {
+  color: rgb(142 154 175);
+  font-size: 16px;
+  font-weight: 500;
+}
+.socils i {
+  font-size: 20px;
+}
+.socils div {
+  display: flex;
+  flex-direction: column;
+}
+.socils a {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px;
+}
+.socils-ttp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icons {
+  display: flex;
+  align-self: flex-start;
+  gap: 20px;
+}
+.icons i {
+  cursor: pointer;
+  font-size: 30px;
+  color: #ffffff;
 }
