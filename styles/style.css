@@ -1053,3 +1053,11 @@ input::-webkit-inner-spin-button {
   bottom: 55%;
 }
 
+.bta {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #69758f;
+}
