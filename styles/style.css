@@ -29,13 +29,12 @@ a {
 }
 
 .continair {
-  width: 100%;
   background: #fffbf8;
   display: flex;
   flex-direction: column;
 }
 .padding {
-  width: 92%;
+  width: 90%;
   margin: 0px auto;
 }
 
@@ -59,11 +58,9 @@ nav {
 }
 
 .btn-primary {
-  padding: 10px 17px;
+  padding: 10px 18px;
   border-radius: 7px;
   border: none;
-  font-weight: 500;
-  font-size: 16px;
   background: #ec7a49;
   color: white;
   cursor: pointer;
@@ -72,7 +69,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 40px;
 }
 nav ul li {
   cursor: pointer;
@@ -84,8 +81,8 @@ nav ul li a {
   color: #69758f;
 }
 .nav-img {
-  width: 40px;
-  height: 40px;
+  width: 8vw;
+  height: 8vh;
 }
 
 /* nav end */
@@ -93,7 +90,7 @@ nav ul li a {
 /* first sec */
 .page-1-sec {
   background-color: #fffbf8;
-  margin-top: 18vh;
+  margin-top: 30px;
 }
 .page-1 {
   display: flex;
@@ -104,22 +101,18 @@ nav ul li a {
 .page1-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 20px;
   align-items: start;
-  width: 51%;
-  height: 50%;
+  width: 50%;
 }
 .page1-img-div {
   display: flex;
-  align-items: center;
   justify-content: end;
-  width: 40%;
 }
 .page-1-title {
   font-size: 3rem;
   font-family: "Suez One", serif;
   color: #1a2026;
-  margin-bottom: 20px;
 }
 .page-1-p,
 .p {
