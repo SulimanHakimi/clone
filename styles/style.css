@@ -1067,6 +1067,7 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
     justify-content: space-between;
     height: 170vh;
+margin-top:20vh;
   }
   .page1-content {
     width: 95%;
