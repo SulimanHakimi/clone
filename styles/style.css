@@ -93,14 +93,13 @@ nav ul li a {
 /* first sec */
 .page-1-sec {
   background-color: #fffbf8;
-  margin-top: 120px;
+  margin-top: 18vh;
 }
 .page-1 {
   display: flex;
   justify-content: space-between;
   height: 130vh;
   align-items: center;
-  flex-direction: row;
 }
 .page1-content {
   display: flex;
@@ -119,8 +118,8 @@ nav ul li a {
 .page-1-title {
   font-size: 3rem;
   font-family: "Suez One", serif;
-
   color: #1a2026;
+  margin-bottom: 20px;
 }
 .page-1-p,
 .p {
@@ -1060,4 +1059,32 @@ input::-webkit-inner-spin-button {
   align-items: center;
   font-size: 30px;
   color: #69758f;
+}
+@media only screen and (max-width: 600px) {
+  header .nav-btn {
+    font-size: 13px;
+  }
+  header ul li {
+    font-size: 14px;
+  }
+  header ul {
+    gap: 20px;
+  }
+  .page-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170vh;
+  }
+  .page1-content {
+    width: 95%;
+  }
+  .page-1-title {
+    font-size: 35px;
+  }
+  .page-1-p {
+    font-size: 18px;
+  }
+  .page1-img-div {
+    width: 90%;
+  }
 }
